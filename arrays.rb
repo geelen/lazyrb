@@ -4,13 +4,7 @@
 # Time: 9:14:44 AM
 # To change this template use File | Settings | File Templates.
 
-class Object
-  define_method(:to_s!) do
-    result = self.to_s
-    puts self.inspect + " => " + result.inspect
-    result
-  end
-end
+require File.dirname(__FILE__) + '/common'
 
 class TransformingX
   @@transformers = {}
