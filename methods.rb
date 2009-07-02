@@ -34,8 +34,8 @@ def curry_mmm(a,b)
 end
 
 # OMG
-test3 = (1..4).to_a.map(&curry_mmm_(5))
-p test3
+test4 = (1..4).to_a.map(&curry_mmm_(5))
+p test4
 
 #  OUTPUT:
 #
